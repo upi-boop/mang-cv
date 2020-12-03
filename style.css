@@ -1,0 +1,73 @@
+body{
+	background-color: #ddd;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+
+}
+
+ 
+ h1 {
+
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 1px #669999;
+	text-transform: uppercase;
+
+}
+
+a {
+	display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0,9em;
+}
+
+ a:link {
+
+ 	background-color: #669999;
+ 	color: white;
+ 	padding: 14px 25px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+}
+
+
+
+
+
+
+.bg{
+	position: relative;
+	background: #00FDFF url(jalan.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: 0 0;
+	background-repeat: repeat-x ;
+	animation: animate 15s linear infinite;
+
+
+}
+
+.car{
+	text-shadow: 2px 5px #669999;
+	position: absolute;
+	right: 70px;
+	bottom: 0;
+
+	
+}
+
+
+@keyframes animate{
+	from{
+		background-position: 100% 0;
+	}
+	to{
+		background-position: 0 0;
+	}
+}
